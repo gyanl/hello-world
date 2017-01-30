@@ -1,3 +1,17 @@
+
+
 body{
   background-color: #eee;
+  font-family: Roboto, sans-serif;
+}
+
+.card{
+  background-color: #fff;
+  border-radius: 12px;
+  width: 300px;
+  height: 300px;
+}
+
+h1{
+  font-weight: 800;
 }
