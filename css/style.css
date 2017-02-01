@@ -5,6 +5,9 @@ body{
   font-family: Roboto, sans-serif;
 }
 
+.cardcont{
+  display: inline-block;
+}
 .card{
   background-color: #fff;
   border-radius: 12px;
@@ -15,3 +18,4 @@ body{
 h1{
   font-weight: 800;
 }
+
