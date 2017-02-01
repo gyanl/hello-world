@@ -26,5 +26,6 @@ h1{
 
   .card{
     width: 90vw;
+    height: auto;
 }
 }
