@@ -1,4 +1,6 @@
-
+p{
+  display: inline;
+}
 
 body{
   background-color: #eee;
@@ -10,11 +12,12 @@ body{
 }
 
 .card{
+  padding: 5px;
   background-color: #fff;
   border-radius: 12px;
   width: 300px;
   height: 300px;
-  display: inline;
+  display: inline-block;
 }
 
 h1{
