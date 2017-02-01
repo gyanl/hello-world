@@ -15,7 +15,7 @@ body{
   padding: 5px;
   background-color: #fff;
   border-radius: 12px;
-  width: 300px;
+  width: 500px;
   height: 300px;
   display: inline-block;
 }
@@ -24,3 +24,10 @@ h1{
   font-weight: 800;
 }
 
+/* MOBILE RULES */
+@media only screen and (max-width: 768px) {
+
+  .card{
+    width: 90vw;
+}
+}
