@@ -27,3 +27,8 @@ font-weight: 400;
 display: inline-block;
 width:45%vw;
 }
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
