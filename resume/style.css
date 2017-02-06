@@ -24,5 +24,6 @@ font-weight: 400;
 }  
 
 .half{
+display: inline-block;
 width:45%vw;
 }
