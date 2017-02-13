@@ -1,4 +1,4 @@
-body{
+class{
   background-color: #eee;
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -8,4 +8,13 @@ student{
   background-color: #fff;
   border-radius: 10px;
   padding: 30px;
+}
+
+name{
+  font-size 20px;
+  display: block;
+}
+
+age, sex, address, marks{
+  display: block;
 }
