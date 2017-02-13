@@ -1,20 +1,35 @@
 class{
-  background-color: #f00;
   font-family: Roboto, sans-serif;
   font-size: 16px;
 }
 
-student{
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 30px;
-}
-
 name{
-  font-size 20px;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
   display: block;
 }
 
-age, sex, address, marks{
+age{
+  width: 300px;
   display: block;
+  margin: auto;
+}
+
+sex{
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+address{
+  width: 300px;
+  display: block;
+  margin: auto;
+  }
+marks{
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-bottom:20px;
 }

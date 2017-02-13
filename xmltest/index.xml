@@ -10,7 +10,7 @@
     <address>655 Double Storey</address>
     <marks>95</marks>
   </student>
-  
+
   <student>
     <name>Tanvi</name>
     <age>20</age>
@@ -18,5 +18,5 @@
     <address>Manhattan</address>
     <marks>98</marks>
   </student>
-  
+
 </class>
