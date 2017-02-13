@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p> TO PRINT CURRENT DATE</p>
+<p id="currentdate"></p>
+<p> TO SET THE DATE</p>
+<p id="customdate"></p>
+<p>USE OF QUOTES IN STRINGS</p>
+<p id="squotes"></p>
+<p>LENGTH OF STRING : ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+<p id="strlen"></p>
+<p>PRINT AN ARRAY</p>
+<p id="array"></p>
+<p>Math.PI</p>
+<p id="pi"></p>
+<p>Math.round(x) returns the value of x rounded down to its nearest 
+
+integer:</p>
+<p id="rnd"></p>
+
+<script>
+document.getElementById("currentdate").innerHTML = Date();
+</script>
+
+<script>
+var d = new Date("October 13, 2014 11:13:00");
+document.getElementById("customdate").innerHTML = d;
+</script>
+
+<script>
+
+var answer1 = "It's alright";
+var answer2 = "He is called 'Johnny'";
+var answer3 = 'He is called "Johnny"'; 
+
+document.getElementById("squotes").innerHTML =
+answer1 + "<br>" + answer2 + "<br>" + answer3; 
+
+</script>
+<script>
+document.getElementById("rnd").innerHTML = Math.round(4.4);
+</script>
+
+<script>
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("strlen").innerHTML = txt.length;
+</script>
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("array").innerHTML = cars;
+</script>
+<script>
+document.getElementById("pi").innerHTML = Math.PI;
+</script>
+
+</body>
+</html>
