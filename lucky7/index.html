@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lucky 7</title>
+</head>
+<body>
+<h1>LUCKY 7
+  <div>
+    <input type="button" value="less than 7" onclick = "cal(0)">
+    <input type="button" value="7" onclick = "cal(1)">
+    <input type="button" value="greater than 7" onclick = "cal(2)">
+    </div>
+    <div>
+      <input type="text" size="10" id="n1">
+      <input type="text" size="10" id="n2">
+      <input type="text" size="10" id="s">
+      </div>
+
+<p id="demo"></p>
+
+<script>
+var num1=0;
+var num2=0;
+var sum=0;
+
+function cal(val)
+{
+  num1=Math.floor(Math.random()*6+1);
+  num2=Math.floor(Math.random()*6+1);
+  sum=num1+num2;
+  document.getElementById('n1').value=num1;
+  document.getElementById('n2').value=num2;
+  document.getElementById('s').value=sum;
+  switch(val)
+  {
+    case 0: if (sum<7){
+              document.getElementById('demo').innerHTML = "Congratulations, you win!";
+            }
+            else {
+            document.getElementById('demo').innerHTML = "You lose! Try again.";}
+            break;
+    case 1: if (sum == 7)
+            {
+              document.getElementById('demo').innerHTML = "Congratulations, you win!";
+            }
+            else
+            {
+              document.getElementById('demo').innerHTML = "You lose! Try again.";
+            }
+            break;
+    case 2: if (sum>7)
+            {
+              document.getElementById('demo').innerHTML = "Congratulations, you win!";
+            }
+            else {
+                document.getElementById('demo').innerHTML = "You lose! Try again.";
+            }
+  }
+}
+</script>
+
+
+</body>
+</html>
